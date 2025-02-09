@@ -1,5 +1,5 @@
-#ifndef DRAW_H
-#define DRAW_H
+#ifndef SSPDW_H
+#define SSPDW_H
 
 #define SCREEN_WIDTH 800
 #define SCREEN_HEIGHT 600
