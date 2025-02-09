@@ -6,6 +6,9 @@
 
 #include <SDL2/SDL.h>
 
+#ifdef __cplusplus
+extern "C" {
+#endif
 
 /**
  * @brief Initializes the drawing environment.
@@ -73,4 +76,9 @@ extern void clearScreen();
  * @return int - The result of the quit event. 1 if the quit event occurred, 0 otherwise.
  */
 extern int listenForQuit();
-#endif // DRAW_H
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif // SSPDW_H
